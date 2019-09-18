@@ -42,6 +42,7 @@ class MysqlPipeline(object):
         self.db.close()
 
 
+# 异步
 class MysqlTwistedPipeline(object):
     def __init__(self):
         self.dbparams = {
